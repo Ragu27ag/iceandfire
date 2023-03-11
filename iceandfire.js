@@ -199,6 +199,7 @@ const search = () =>{
 
 const nextPageFunc = () => {
     page++;
+    document.innerHtml = '';
     charfetch();
     console.log(page)
   }
