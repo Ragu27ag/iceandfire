@@ -199,7 +199,8 @@ const search = () =>{
 
 const nextPageFunc = () => {
     page++;
-    document.body.innerHtml = '';
+    document.body.innerHTML = '';
+    window.scrollTo(0,0);
     charfetch();
     console.log(page)
   }
