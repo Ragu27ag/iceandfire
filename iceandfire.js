@@ -199,7 +199,7 @@ const search = () =>{
 
 const nextPageFunc = () => {
     page++;
-    document.innerHtml = '';
+    document.body.innerHtml = '';
     charfetch();
     console.log(page)
   }
